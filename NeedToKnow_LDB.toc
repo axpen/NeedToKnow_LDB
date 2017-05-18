@@ -1,0 +1,18 @@
+## Interface: 60100
+## Title: NeedToKnow_LDB
+## Author: Axpen
+## Version: 1.0
+## Notes: Add Lib Data Broker Functionality To NeedToKnow
+## X-Credits: Kitjan, lieandswell
+## X-Category: Buffs, Combat, Data Broker
+## Dependencies: NeedToKnow
+## OptionalDeps: LibStub
+## DefaultState: Enabled
+## LoadOnDemand: 0
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+#@no-lib-strip@
+Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+#@end-no-lib-strip@
+NeedToKnow_LDB.lua
